@@ -8,3 +8,14 @@ Commands implemented are: C (copy), D (delete), E (echo), H (help), L (list), M 
 
 # Help Function
 The help function displays what each of the commands do and how to use them.
+
+# How To Run Our Shell
+To run out shell, execute:
+
+gcc shell.c -o output
+
+And then run:
+
+./output
+
+You will then be in our shell!
