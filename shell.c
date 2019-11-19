@@ -197,7 +197,31 @@ void readCommand(char *buffer)
 
 void printHelp()
 {
-  printf("%s ", "C file1 file2 Copy; create file2, copy all bytes of file1 to file2 without deleting file1. D file Delete the named file. E comment Echo; display comment on screen followed by a new line (multiple spaces/tabs may be reduced to a single space); if no argument simply issue a new prompt. H Help; display the user manual, described below. L List the contents of the current directory; see below. M file Make; create the named text file by launching a text editor. P file Print; display the contents of the named file on screen. Q Quit the shell. S Surf the web by launching a browser as a background process. W Wipe; clear the screen. X program Execute the named program.");
+  /* Copy help */
+  printf("%s ", "\nC file1 file2      Copy; create file2, copy all bytes of file1 to file2 without deleting file1.");
+  /* Delete help */
+  printf("%s ", "\nD file             Delete the named file.");
+  /* Echo help */
+  printf("%s ", "\nE comment          Echo; display comment on screen followed by a new line.");
+  /* Help help */
+  printf("%s ", "\nH                  Help; display the user manual.");
+  /* List help */
+  printf("%s ", "\nL                  List the contents of the current directory.");
+  /* Make help */
+  printf("%s ", "\nM file             Make; create the named text file by launching a text editor.");
+  /* Print help */
+  printf("%s ", "\nP file             Print; display the contents of the named file on screen.");
+  /* Quit help */
+  printf("%s ", "\nQ                  Quit the shell.");
+  /* Surf the web help */
+  printf("%s ", "\nS                  Surf the web by launching a browser.");
+  /* Wipe help */
+  printf("%s ", "\nW                  Wipe; clear the screen.");
+  /* Program help */
+  printf("%s ", "\nX program          Execute the named program.");
+  
+  /* New line */
+  printf("%s ", "\n\n");
 }
 
 /* End help function's information. */
